@@ -19,7 +19,7 @@ namespace MVC_Crud_NET_8.Models
                 [Required(ErrorMessage = "El email es obligatorio")]
                 public string Email { get; set; }
 
-                public DateTime FechaCreacion { get; set; }
+                public DateTime FechaCreacion { get; set; } // = DateTime.Now;
 
         }
 }

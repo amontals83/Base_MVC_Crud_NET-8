@@ -9,8 +9,7 @@ namespace MVC_Crud_NET_8.Datos
                 {
                 }
 
-                //Agregar los modelos aqui
-                
+                //Agregar los modelos aqui                
                 public DbSet<Contacto> Contacto { get; set; }
         }
 }

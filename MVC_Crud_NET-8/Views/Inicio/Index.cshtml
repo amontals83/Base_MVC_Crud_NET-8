@@ -1,4 +1,5 @@
-﻿@model IEnumerable<MVC_Crud_NET_8.Models.Contacto>
+﻿<!-- IEnumerable para tener una vista que genera una lista-->
+@model IEnumerable<MVC_Crud_NET_8.Models.Contacto>
 
 @{
     ViewData["Title"] = "Lista de contactos";
@@ -7,7 +8,7 @@
 <h1 class="text-center">Contacto con .NEt 8</h1>
 <div class="row">
         <div class="offset-9 col-3 mb-3">
-                <a asp-action="Crear" asp-controller="Inicio" class="btn btn-secondary d-block mx-auto btn-sm">
+                <a asp-action="Crear" asp-controller="Inicio" class="btn btn-secondary d-block mx-auto btn-lg">
                         <i class="fa-solid fa-plus"></i> Nuevo Usuario
                 </a>
         </div>
